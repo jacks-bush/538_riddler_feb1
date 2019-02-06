@@ -10,16 +10,6 @@ class WinnerWinnerChickenDinner(Exception):
     pass
 
 
-class SquareType(Enum):
-    Left = 1
-    Right = 2
-    UTurn = 3
-    Straight = 4
-    Choose = 5
-    Lava = 6
-    SmileyFace = 7
-
-
 maze = [
     ['L', 'U', 'U', '?', 'U', 'L', 'X', 'L'],
     ['R', 'L', 'R', 'L', 'U', 'E', 'U', 'U'],
