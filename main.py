@@ -1,4 +1,3 @@
-from enum import Enum
 import random
 
 
@@ -45,7 +44,7 @@ def main(maze):
             nextInfo = getEntryPointAndDirection()
             path = [nextInfo]
         counter += 1
-        if counter > 10000:
+        if counter > 1000000:
             break
 
     for x in range(0, len(winnerPaths)):
